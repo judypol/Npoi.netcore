@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8B97F5E6-CC49-48E3-BAB5-D1AFB759F96E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{08190F8F-1D5D-4570-82E6-54CBDCF91883}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "npoi.core", "src\npoi.core\npoi.core.xproj", "{E4E802AF-B180-4F0B-930D-96F5D9C85CAE}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ooxml", "src\ooxml\ooxml.xproj", "{5DE61892-AD7C-4072-82D8-E7226990DE47}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "openxml4Net", "src\openxml4Net\openxml4Net.xproj", "{BBF7166F-DDD4-40D7-BB29-AD6C41A14740}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "OpenXmlFormats", "src\OpenXmlFormats\OpenXmlFormats.xproj", "{8D4353C3-3A47-49AA-B4DB-7312424F6B2D}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ICSharpCode.SharpZipLib.Core", "..\..\SharpZipLib.NetCore\ICSharpCode.SharpZipLib\ICSharpCode.SharpZipLib.Core.xproj", "{1CB9F0F7-A6B6-416A-A1DB-E55F334635E1}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "npoi.test", "src\npoi.test\npoi.test.xproj", "{FB7EA77C-CC4C-48DA-97FB-7ECBE095EA24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4E802AF-B180-4F0B-930D-96F5D9C85CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4E802AF-B180-4F0B-930D-96F5D9C85CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4E802AF-B180-4F0B-930D-96F5D9C85CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4E802AF-B180-4F0B-930D-96F5D9C85CAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DE61892-AD7C-4072-82D8-E7226990DE47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DE61892-AD7C-4072-82D8-E7226990DE47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DE61892-AD7C-4072-82D8-E7226990DE47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DE61892-AD7C-4072-82D8-E7226990DE47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBF7166F-DDD4-40D7-BB29-AD6C41A14740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBF7166F-DDD4-40D7-BB29-AD6C41A14740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBF7166F-DDD4-40D7-BB29-AD6C41A14740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBF7166F-DDD4-40D7-BB29-AD6C41A14740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D4353C3-3A47-49AA-B4DB-7312424F6B2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D4353C3-3A47-49AA-B4DB-7312424F6B2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D4353C3-3A47-49AA-B4DB-7312424F6B2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D4353C3-3A47-49AA-B4DB-7312424F6B2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CB9F0F7-A6B6-416A-A1DB-E55F334635E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CB9F0F7-A6B6-416A-A1DB-E55F334635E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CB9F0F7-A6B6-416A-A1DB-E55F334635E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CB9F0F7-A6B6-416A-A1DB-E55F334635E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB7EA77C-CC4C-48DA-97FB-7ECBE095EA24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB7EA77C-CC4C-48DA-97FB-7ECBE095EA24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB7EA77C-CC4C-48DA-97FB-7ECBE095EA24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB7EA77C-CC4C-48DA-97FB-7ECBE095EA24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E4E802AF-B180-4F0B-930D-96F5D9C85CAE} = {8B97F5E6-CC49-48E3-BAB5-D1AFB759F96E}
+		{5DE61892-AD7C-4072-82D8-E7226990DE47} = {8B97F5E6-CC49-48E3-BAB5-D1AFB759F96E}
+		{BBF7166F-DDD4-40D7-BB29-AD6C41A14740} = {8B97F5E6-CC49-48E3-BAB5-D1AFB759F96E}
+		{8D4353C3-3A47-49AA-B4DB-7312424F6B2D} = {8B97F5E6-CC49-48E3-BAB5-D1AFB759F96E}
+		{FB7EA77C-CC4C-48DA-97FB-7ECBE095EA24} = {8B97F5E6-CC49-48E3-BAB5-D1AFB759F96E}
+	EndGlobalSection
+EndGlobal
